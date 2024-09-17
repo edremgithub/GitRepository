@@ -5,9 +5,9 @@ public class MainClass{
         System.out.println("Putangina ka!");
 
         try (Scanner scan = new Scanner(System.in)) {
-            System.out.print("Please enter your name: ");
-            String name = scan.nextLine();
-            System.out.println("Hello " + name);
+            System.out.print("Please enter your yourName: ");
+            String yourName = scan.nextLine();
+            System.out.println("Hello " + yourName);
         }
     }
 }
