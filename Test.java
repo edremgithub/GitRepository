@@ -13,10 +13,5 @@ public class Test
             System.out.println("Ilang taon ka nang kupal?");
             String age = scan.nextLine();
             System.out.println( age + ", tanda mo na gago");
-
-        
-
-
-       
     }
 }
