@@ -7,8 +7,8 @@ public class VowelConsonantScanner {
         System.out.print("Enter a letter: ");
         char ch = scanner.next().charAt(0);
 
-        if (ch == 'a' || ch == 'e' || ch == 'o' || ch == 'u' 
-        || ch == 'A' || ch == 'E' || ch == 'O' || ch == 'U') {
+        if (ch == 'a' || ch == 'e' || ch == 'o' || ch == 'u' || ch == 'i'
+        || ch == 'A' || ch == 'E' || ch == 'O' || ch == 'U' || ch == 'I') {
             System.out.println(ch + " is a Vowel");
         } else {
             System.out.println(ch + " is a Consonant");
