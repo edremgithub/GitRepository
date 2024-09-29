@@ -1,6 +1,6 @@
 public class VowelConsonant {
     public static void main (String[] args) {
-        char ch = 'B';
+        char ch = 'A';
 
         
         if (ch == 'a' || ch == 'e' || ch == 'o' || ch == 'u' 
