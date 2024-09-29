@@ -5,7 +5,7 @@ public class PracticePoint {
 
    
 
-    System.out.println(num);
+    System.out.println("asd");
 
     }
 
