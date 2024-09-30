@@ -1,17 +1,28 @@
+
 import javax.swing.JOptionPane;
 
 public class JOptionsPane {
-    public static void main (String[] args){
-        String name = new String();
-        int num = 0;
+    public static void main(String[] args) {
+        JOptionPane.showMessageDialog(null, "Edrem Test");
 
-        num = Integer.parseInt(JOptionPane.showInputDialog(null, "Enter your number"));
+        String input = JOptionPane.showInputDialog(null, "Input testing: ");
 
-        JOptionPane.showMessageDialog(null, num);
+        JOptionPane.showMessageDialog(null, "Output should be posted here: " + input);
 
-        // This is used when you want to type letters instead of numbers
-        // name = JOptionPane.showInputDialog(null, "Enter your name here: ");
+        Object[] options = {"Yes" , "No" , "Maybe"};
+        int result = JOptionPane.showOptionDialog(null, "Pop up question here:", "Options Title",
+         JOptionPane.YES_NO_CANCEL_OPTION, JOptionPane.QUESTION_MESSAGE, null, options, options[2]);
 
-        // JOptionPane.showMessageDialog(null, "Your name is " + name);
+         if (result == JOptionPane.YES_OPTION) {
+            JOptionPane.showMessageDialog(null, "If you clicked YES, this should pop up");
+         }
+         
+         else if (result == JOptionPane.NO_OPTION) {
+            JOptionPane.showMessageDialog(null, "If you clicked NO, this should pop ");
+         }
+
+         else {
+            JOptionPane.showMessageDialog(null, "If you clicked MAYBE, this should pop up");
+         }
     }
-}
+} 

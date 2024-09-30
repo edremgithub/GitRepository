@@ -23,13 +23,11 @@ public class Arithmetic {
         System.out.println("Addition: " + addition);
         System.out.println("Subtraction: " + subtraction);
         System.out.println("Multiplication: " + multiplication);
-        System.out.println("Modulus% : "+ modulus);
         if (num2 != 0) {
             System.out.println("Division: " + division);
         } else {
             System.out.println("Division: Undefined (cannot divide by zero)");
         }
-
-        scanner.close();
+        System.out.println("Modulus% : "+ modulus);
     }
 }

@@ -22,12 +22,5 @@ public class OddEven
             
 
         scanner.close();
-
-        //String = "Hello World"
-        //char = ''
-        //int =
-        //boolean = True or False
-
-        
     }
 }
