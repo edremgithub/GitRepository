@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Oct2Activity {
+public class Oct3Activity2 {
     public static void main (String[] args) {
        
         Scanner ope = new Scanner(System.in);
