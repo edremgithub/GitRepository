@@ -1,14 +1,19 @@
 import java.util.Scanner;
 
-public class Oct3Activity {
-    public static void main (String[] args) {
+public class Oct3Activity 
+{
+    public static void main (String[] args) 
+    {
 
         Scanner ope = new Scanner(System.in);
         System.out.println("Enter number to show date: ");
         int num = ope.nextInt();
         int year = num % 12;
         
-        switch(year) {
+
+        //Just like if else statement, pero mas straightforward siya
+        switch(year)
+        {
             case 0: System.out.println("Monkey");break;
             case 1: System.out.println("Rooster");break;
             case 2: System.out.println("Dog");break;
@@ -24,4 +29,5 @@ public class Oct3Activity {
 
         }
     }
-}
+} //Take huge note sa class blocks, kasi kapag sobra/kulang yan hindi magrurun program niyo
+

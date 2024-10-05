@@ -1,7 +1,9 @@
-import java.util.Scanner;
+import java.util.Scanner; //nilalagay to para pwede tayo makapagtype tuwing i-rurun ang program
 
-public class Arithmetic {
-    public static void main(String[] args) {
+public class Arithmetic //ang 'Arithmetic' ay file name lang. Kayo bahala kung ano file name ilalagay niyo basta Capital first letter.
+{ 
+    public static void main(String[] args)
+     { 
         Scanner scanner = new Scanner(System.in);
 
         // Input two numbers
@@ -15,7 +17,7 @@ public class Arithmetic {
         double addition = num1 + num2;
         double subtraction = num1 - num2;
         double multiplication = num1 * num2;
-        double division = num1 / num2 ; // Handling division by zero
+        double division = num1 / num2 ;
         double modulus = num1 % num2 ;
 
         // Display results
@@ -23,11 +25,7 @@ public class Arithmetic {
         System.out.println("Addition: " + addition);
         System.out.println("Subtraction: " + subtraction);
         System.out.println("Multiplication: " + multiplication);
-        if (num2 != 0) {
-            System.out.println("Division: " + division);
-        } else {
-            System.out.println("Division: Undefined (cannot divide by zero)");
-        }
+        System.out.println("Division: " + division);
         System.out.println("Modulus% : "+ modulus);
     }
 }
