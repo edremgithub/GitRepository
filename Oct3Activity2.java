@@ -4,12 +4,16 @@ public class Oct3Activity2 {
     public static void main (String[] args) {
        
         Scanner ope = new Scanner(System.in);
-        System.out.println("Enter 5 grades: ");
+        System.out.println("Enter 1st grade: ");
         //Naka double para pwede isasama ng system mo yung decimal kapag naglagay ka sa scanner.
         Double g1 = ope.nextDouble();
+        System.out.println("Enter 2nd grade: ");
         Double g2 = ope.nextDouble();
+        System.out.println("Enter 3rd grade: ");
         Double g3 = ope.nextDouble();
+        System.out.println("Enter 4th grade: ");
         Double g4 = ope.nextDouble();
+        System.out.println("Enter 5th grade: ");
         Double g5 = ope.nextDouble();
         Double ave = (g1+g2+g3+g4+g5)/5;
         
