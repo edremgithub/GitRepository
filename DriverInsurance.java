@@ -17,7 +17,7 @@ public class DriverInsurance {
       
         if (maritalStatus == 'M') {
             System.out.println("Driver should be Insured.");
-        } else if (maritalStatus == 'U') {
+        } if (maritalStatus == 'U') {
             if ( gender == 'M' && age >= 30) {
                 System.out.println("Driver should be Insured.");
             } else if (gender == 'F' && age >= 25) {
