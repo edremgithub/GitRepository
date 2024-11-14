@@ -1,6 +1,6 @@
 import java.util.Scanner;
 public class Activity1 {
-public static void main(String[] args) {
+    public static void main(String[] args) {
     Scanner ojay = new Scanner(System.in);
     System.out.println("Enter Number: ");
     int n = ojay.nextInt();
