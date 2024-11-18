@@ -118,7 +118,7 @@ z-index: -1;
 
 @media (min-aspect-ratio: 16/9){
 .back-video{
-  width: 100%;
+  width: 100%;s
   height: auto;
 }
 }
