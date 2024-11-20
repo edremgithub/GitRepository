@@ -1,0 +1,165 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #fafafa;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* Header Section */
+  header {
+    background-color: #3e2723; /* Coffee brown */
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header .logo h1 {
+    font-size: 2em;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-left: 20px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background: url('https://images.pexels.com/photos/302905/pexels-photo-302905.jpeg') no-repeat center center/cover;
+    color: rgb(245, 244, 244);
+    padding: 100px 20px;
+    text-align: center;
+  }
+  
+  .hero-text h2 {
+    font-size: 3em;
+    margin-bottom: 10px;
+  }
+  
+  .hero-text p {
+    font-size: 1.2em;
+  }
+  
+  /* Menu Section */
+  .menu {
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .menu h3 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .menu-items {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+  
+  .menu-item {
+    width: 250px;
+    text-align: center;
+    margin: 10px;
+  }
+  
+  .menu-item h4 {
+    margin-top: 10px;
+    color: #3e2723;
+  }
+  
+  .menu-item p {
+    font-size: 0.9em;
+  }
+  
+  /* Menu Image Styling */
+  .menu-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
+
+  .menu-image:hover {
+    transition: 0.3s;
+    width: 270px;
+    height: 400px;
+  }
+  
+  /* About Section */
+  .about {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #fff;
+  }
+  
+  .about h3 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .about p {
+    font-size: 1.1em;
+  }
+  
+  /* Contact Section */
+  .contact {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #f4f4f4;
+  }
+  
+  .contact h3 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .contact p {
+    font-size: 1.1em;
+  }
+  
+  .social-links a {
+    color: #3e2723;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  .social-links a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Footer Section */
+  footer {
+    background-color: #3e2723;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+  }
+  
+  footer p {
+    font-size: 0.9em;
+  }
