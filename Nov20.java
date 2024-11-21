@@ -2,23 +2,25 @@ import java.util.Scanner;
 public class Nov20 {
     public static void main (String [] args) {
         Scanner scanner = new Scanner(System.in);
-        // int randomNumber = (int) (Math.random() * 100) +1;
-        // int guess;
-        // int attempt = 0;
-        // System.out.println("WELCOME TO THE GUESSING GAME");
-        // do {
-        //     System.out.print("Guess a number between 1 and 100");
+        int randomNumber = (int) (Math.random() * 100) +1;
+        int guess;
+        int attempt = 0;
+        System.out.println("WELCOME TO THE GUESSING GAME");
+        do {
+            System.out.print("Guess a number between 1 and 100: ");
             
-        //     guess = scanner.nextInt();
-        //     attempt++;
-        //         if (guess < randomNumber) {
-        //             System.out.println("Too low!");
-        //         } else if (guess > randomNumber) {
-        //             System.out.println("Too high!");
-        //         } else if (guess == randomNumber) {
-        //             System.out.println("CONGRATULATIONS!");
-        //         }
-        // } while (attempt < 5);
+            guess = scanner.nextInt();
+            attempt++;
+                if (guess < randomNumber) {
+                    System.out.println("Too low!");
+                } else if (guess > randomNumber) {
+                    System.out.println("Too high!");
+                } else if (guess == randomNumber) {
+                    System.out.println("CONGRATULATIONS!");
+                } 
+        } while (attempt < 5);
+
+        System.out.println("The answer is: " + randomNumber);
 
         //ANOTHER EXAMPLE 
 
