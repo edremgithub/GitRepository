@@ -1,8 +1,8 @@
 import java.util.Scanner;
 
-public class AreaCalculator {
-    public static void main(Scanner scanner) {
-        
+public class Feb4Act {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
         System.out.print("Enter the radius of the circle: ");
         double radius = scanner.nextDouble();
         System.out.println("Area of Circle: " + circle(radius));
@@ -17,7 +17,7 @@ public class AreaCalculator {
         double width = scanner.nextDouble();
         System.out.println("Area of Rectangle: " + rectangle(length, width));
         
-        scanner.close();
+        System.out.println("Thank you for using Area Calculator!");
     }
     
     public static double circle(double radius) {
