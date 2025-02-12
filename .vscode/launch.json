@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SamplePerson",
+            "request": "launch",
+            "mainClass": "sampleperson.src.SamplePerson",
+            "projectName": "GitRepository_ddaaa925"
+        },
+        {
+            "type": "java",
             "name": "AreaCalculator",
             "request": "launch",
             "mainClass": "AreaCalculator",
