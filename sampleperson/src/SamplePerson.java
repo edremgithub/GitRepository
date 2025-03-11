@@ -6,7 +6,7 @@ public class SamplePerson {
     public static void main(String[] args) {
        Scanner sc = new Scanner(System.in);
        
-       //inputs
+       
        System.out.print("Enter first name: ");
        String fname = sc.nextLine();
        
@@ -22,10 +22,10 @@ public class SamplePerson {
        System.out.print("Enter age: ");
        int age = sc.nextInt();
        
-       //object creation
+       
        Person p1 = new Person(fname, lname, bday, age, gender);
        
-       //function call
+       
        p1.pInfo();
        
     }

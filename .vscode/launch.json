@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "RestaurantSystem",
+            "request": "launch",
+            "mainClass": "restaurant.src.RestaurantSystem",
+            "projectName": "GitRepository_ddaaa925"
+        },
+        {
+            "type": "java",
+            "name": "Activity3num3",
+            "request": "launch",
+            "mainClass": "Activity3num3",
+            "projectName": "GitRepository_ddaaa925"
+        },
+        {
+            "type": "java",
+            "name": "Activity3num2",
+            "request": "launch",
+            "mainClass": "Activity3num2",
+            "projectName": "GitRepository_ddaaa925"
+        },
+        {
+            "type": "java",
             "name": "SamplePerson",
             "request": "launch",
             "mainClass": "sampleperson.src.SamplePerson",
